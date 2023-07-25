@@ -95,34 +95,33 @@ public class Main {
               result = -1;
               System.out.println(result);
         }
-
         return result;
     };
 };
 
 class dog {
     public static void main(String[] args) {
-        Main dogBarking = new Main();     // Create a myCar object
+        Main dogBarking = new Main();
         dogBarking.shouldWakeUp(true,21);
     }
 
 }
 class age {
     public static void main(String[] args) {
-        Main ageCheck = new Main();     // Create a myCar object
+        Main ageCheck = new Main();
         ageCheck.hasTeen(9,99,19);
     }
 }
 class cat {
     public static void main(String[] args) {
-        Main catGame = new Main();     // Create a myCar object
+        Main catGame = new Main();
         catGame.isCatPlaying(false,36);
     }
 }
 
 class area {
     public static void main(String[] args) {
-        Main areaCalculation = new Main();     // Create a myCar object
+        Main areaCalculation = new Main();
         areaCalculation.area(4,-1);
     }
 }
